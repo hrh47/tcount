@@ -1,5 +1,7 @@
-# term count
+# tcount
 關鍵詞統計 chrome extension
+
+![](https://i.imgur.com/uwSHHhu.png)
 
 ## 簡介
 關鍵詞統計為一 google extension，當點擊該 extenstion 時，會出現一個頁面內出現的關鍵詞出現次數的統計圖。
@@ -26,7 +28,6 @@
 * fork tcount 程式，將文字傳入，取得關鍵詞的出現次數。
 * 回傳結果至前端。
 
-## tcount
-* written in C
+## tcount.c
 * 使用 chaining 的 hashtable。
 * 將 term 存入 hashtable 裡，用 ngram 方式對文章做正向最大匹配斷詞，之後去 hashtable 找看看有沒有這個詞，如果有的話就將次數加一。
