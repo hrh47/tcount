@@ -4,7 +4,7 @@
 ![](https://i.imgur.com/uwSHHhu.png)
 
 ## 簡介
-tcount 為一 google extension，當點擊該 extenstion 時，會出現一個頁面內出現的關鍵詞出現次數的統計圖。
+tcount 為一 chrome extension，當點擊該 extenstion 時，會出現一個頁面內出現的關鍵詞出現次數的統計圖。
 
 ## 安裝
 1. git clone https://www.github.com/hrh47/tcount.git
