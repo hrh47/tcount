@@ -1,0 +1,27 @@
+{
+  "name": "tcount",
+  "version": "1.0.0",
+  "description": "關鍵詞統計",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "html-to-text": "^5.1.1",
+    "node-readability": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gcc tcount.c -o tcount",
+    "start": "npm run build; node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hrh47/tcount.git"
+  },
+  "author": "Andrew Hsieh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrh47/tcount/issues"
+  },
+  "homepage": "https://github.com/hrh47/tcount#readme"
+}

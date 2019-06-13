@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>關鍵詞統計</title>
+    <style type="text/css">
+      body {
+        width: 640px;
+        height: 480px;
+        margin: 50px;
+        white-space: nowrap;
+        text-align: center;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+    <script src="Chart.min.js"></script>
+    <script src="content.js"></script>
+  </head>
+
+  <body>
+    <h1>關鍵詞統計</h1>
+    <canvas id="myChart" width="600" height="300"></canvas>
+
+  </body>
+</html>
